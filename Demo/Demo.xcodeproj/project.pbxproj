@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F27AC7221F0B9C100EF86C4 /* Router.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F27AC7121F0B9C100EF86C4 /* Router.framework */; };
+		1F27AC7421F0B9C600EF86C4 /* Base.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F27AC7321F0B9C600EF86C4 /* Base.framework */; };
+		1F51EDB520F4B843001C0666 /* TestView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F51EDB420F4B843001C0666 /* TestView.m */; };
 		1F7FC31B20E3B80E00B7C86E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F7FC31A20E3B80E00B7C86E /* AppDelegate.m */; };
 		1F7FC31E20E3B80E00B7C86E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F7FC31D20E3B80E00B7C86E /* ViewController.m */; };
 		1F7FC32320E3B81000B7C86E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F7FC32220E3B81000B7C86E /* Assets.xcassets */; };
@@ -16,6 +19,8 @@
 		1F7FC33E20E3B81000B7C86E /* DemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F7FC33D20E3B81000B7C86E /* DemoUITests.m */; };
 		2AC75D79CE4142B40A239045 /* libPods-DemoUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DF7B5F299D7DF7F7C1EDA4B /* libPods-DemoUITests.a */; };
 		3B3E2F3D3D4C597D00F42DC1 /* libPods-Demo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A78652ADAA949C0A1B2F30EF /* libPods-Demo.a */; };
+		62369321DD30A99C6995EFAE /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 62369B7E043AC481BC3A4CDC /* README.md */; };
+		623696F2147C448F6FE91F17 /* NewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 62369406026A9EFFBE740205 /* NewViewController.m */; };
 		D49219D232CBDCA009A9837D /* libPods-DemoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 33734837F7C4F1F2E807D958 /* libPods-DemoTests.a */; };
 /* End PBXBuildFile section */
 
@@ -37,6 +42,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1F27AC7121F0B9C100EF86C4 /* Router.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Router.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F27AC7321F0B9C600EF86C4 /* Base.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Base.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F51EDB320F4B843001C0666 /* TestView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestView.h; sourceTree = "<group>"; };
+		1F51EDB420F4B843001C0666 /* TestView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestView.m; sourceTree = "<group>"; };
 		1F7FC31620E3B80E00B7C86E /* Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F7FC31920E3B80E00B7C86E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1F7FC31A20E3B80E00B7C86E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -53,6 +62,9 @@
 		1F7FC33D20E3B81000B7C86E /* DemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoUITests.m; sourceTree = "<group>"; };
 		1F7FC33F20E3B81000B7C86E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		33734837F7C4F1F2E807D958 /* libPods-DemoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DemoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		62369406026A9EFFBE740205 /* NewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewViewController.m; sourceTree = "<group>"; };
+		62369B7E043AC481BC3A4CDC /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		62369BD01CCD6F8A2A41EBD6 /* NewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewViewController.h; sourceTree = "<group>"; };
 		6887CE297C474BB1D336ECF8 /* Pods-DemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DemoTests/Pods-DemoTests.release.xcconfig"; sourceTree = "<group>"; };
 		7CA3EF6EF692FA4B932CE860 /* Pods-Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Demo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Demo/Pods-Demo.debug.xcconfig"; sourceTree = "<group>"; };
 		8DF7B5F299D7DF7F7C1EDA4B /* libPods-DemoUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DemoUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -68,6 +80,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F27AC7421F0B9C600EF86C4 /* Base.framework in Frameworks */,
+				1F27AC7221F0B9C100EF86C4 /* Router.framework in Frameworks */,
 				3B3E2F3D3D4C597D00F42DC1 /* libPods-Demo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -100,6 +114,7 @@
 				1F7FC31720E3B80E00B7C86E /* Products */,
 				425640378EB36FEAE13C64EB /* Pods */,
 				57D6AC5E2BD7073B749DF904 /* Frameworks */,
+				62369B7E043AC481BC3A4CDC /* README.md */,
 			);
 			sourceTree = "<group>";
 		};
@@ -124,6 +139,10 @@
 				1F7FC32420E3B81000B7C86E /* LaunchScreen.storyboard */,
 				1F7FC32720E3B81000B7C86E /* Info.plist */,
 				1F7FC32820E3B81000B7C86E /* main.m */,
+				1F51EDB320F4B843001C0666 /* TestView.h */,
+				1F51EDB420F4B843001C0666 /* TestView.m */,
+				62369406026A9EFFBE740205 /* NewViewController.m */,
+				62369BD01CCD6F8A2A41EBD6 /* NewViewController.h */,
 			);
 			path = Demo;
 			sourceTree = "<group>";
@@ -162,6 +181,8 @@
 		57D6AC5E2BD7073B749DF904 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				1F27AC7321F0B9C600EF86C4 /* Base.framework */,
+				1F27AC7121F0B9C100EF86C4 /* Router.framework */,
 				A78652ADAA949C0A1B2F30EF /* libPods-Demo.a */,
 				33734837F7C4F1F2E807D958 /* libPods-DemoTests.a */,
 				8DF7B5F299D7DF7F7C1EDA4B /* libPods-DemoUITests.a */,
@@ -358,9 +379,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F51EDB520F4B843001C0666 /* TestView.m in Sources */,
 				1F7FC31E20E3B80E00B7C86E /* ViewController.m in Sources */,
 				1F7FC32920E3B81000B7C86E /* main.m in Sources */,
 				1F7FC31B20E3B80E00B7C86E /* AppDelegate.m in Sources */,
+				62369321DD30A99C6995EFAE /* README.md in Sources */,
+				623696F2147C448F6FE91F17 /* NewViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -523,6 +547,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				HEADER_SEARCH_PATHS = (
+					"\"$(SRCROOT)/Router/Router/\"",
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/AFNetworking\"",
+					"\"$(SRCROOT)/Base/Base/\"",
+				);
 				INFOPLIST_FILE = Demo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -541,6 +572,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				HEADER_SEARCH_PATHS = (
+					"\"$(SRCROOT)/Router/Router/\"",
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/AFNetworking\"",
+					"\"$(SRCROOT)/Base/Base/\"",
+				);
 				INFOPLIST_FILE = Demo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8;
 				LD_RUNPATH_SEARCH_PATHS = (

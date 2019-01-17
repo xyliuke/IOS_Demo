@@ -10,6 +10,8 @@
 		1F7FC38C20E3B99600B7C86E /* Router.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F7FC38220E3B99600B7C86E /* Router.framework */; };
 		1F7FC39120E3B99600B7C86E /* RouterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F7FC39020E3B99600B7C86E /* RouterTests.m */; };
 		1F7FC39320E3B99600B7C86E /* Router.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F7FC38520E3B99600B7C86E /* Router.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1F7FC3C220E3BF7000B7C86E /* ARouter.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F7FC3C020E3BF7000B7C86E /* ARouter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1F7FC3C320E3BF7000B7C86E /* ARouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F7FC3C120E3BF7000B7C86E /* ARouter.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +31,8 @@
 		1F7FC38B20E3B99600B7C86E /* RouterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RouterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F7FC39020E3B99600B7C86E /* RouterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RouterTests.m; sourceTree = "<group>"; };
 		1F7FC39220E3B99600B7C86E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F7FC3C020E3BF7000B7C86E /* ARouter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ARouter.h; sourceTree = "<group>"; };
+		1F7FC3C120E3BF7000B7C86E /* ARouter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ARouter.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +77,8 @@
 			children = (
 				1F7FC38520E3B99600B7C86E /* Router.h */,
 				1F7FC38620E3B99600B7C86E /* Info.plist */,
+				1F7FC3C020E3BF7000B7C86E /* ARouter.h */,
+				1F7FC3C120E3BF7000B7C86E /* ARouter.m */,
 			);
 			path = Router;
 			sourceTree = "<group>";
@@ -94,6 +100,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1F7FC39320E3B99600B7C86E /* Router.h in Headers */,
+				1F7FC3C220E3BF7000B7C86E /* ARouter.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -193,6 +200,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F7FC3C320E3BF7000B7C86E /* ARouter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

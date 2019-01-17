@@ -7,7 +7,7 @@
 //
 
 #import <XCTest/XCTest.h>
-
+#import "ARouter.h"
 @interface RouterTests : XCTestCase
 
 @end
@@ -34,6 +34,13 @@
     [self measureBlock:^{
         // Put the code you want to measure the time of here.
     }];
+}
+
+- (void)testRouter {
+    NSString* url = @"snssdk1128://aweme/detail/6557626649536367879";
+    url = @"sslocal://profile?uid=5806115967";
+//    [ARouter register:<#(NSString *)#> handler:<#^(NSDictionary *)handler#>]
+    [ARouter canOpenURL:url];
 }
 
 @end
